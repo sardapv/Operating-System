@@ -55,5 +55,32 @@ void main()
 					/* code */
 	}
 	printf("\nExternal Fragmentation = %d\n",fragx);
-}
 
+
+/*
+for(i=1;i<=nf;i++)
+{
+ for(j=1;j<=nb;j++)
+ {
+  if(bf[j]!=1)
+  {
+   temp=b[j]-f[i];
+   if(temp>=0)
+   {
+    ff[i]=j;
+    break;
+   }
+  }
+ }
+ frag[i]=temp;
+ bf[ff[i]]=1;
+}*/
+/*printf("\n\nProcess_No\tProcess_Size\tBlock_No\tBlock_Size\tFragment");
+for(i=1;i<=nf;i++){
+if (ff[i] != 0) {
+printf("%-15d\t%-15d\t%-15d\t%-15d\t%-15d\n",i, f[i],ff[j],b[j],frag[i]);
+}
+else
+printf("%-15d\t%-15d\t%-15s\t%-15s\t%-15s\n",i, f[i],"WAIT...","WAIT...","WAIT...");
+}*/
+}
